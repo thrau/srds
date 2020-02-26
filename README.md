@@ -1,9 +1,15 @@
 Simple Random Distribution Sampling
 ===================================
 
+[![PyPI Version](https://badge.fury.io/py/srds.svg)](https://badge.fury.io/py/srds)
+[![PyPI License](https://img.shields.io/pypi/l/srds.svg)](https://img.shields.io/pypi/l/srds.svg)
+
 SRDS is mainly a wrapper around scipy's statistical functions
 ([scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html)).
-It makes it easier to sample from parameterized distributions and provides tools that accelerate random sampling.
+It makes it easier to sample from parameterized distributions or populations by providing a uniform interface, the
+`RandomSampler`.
+It provides several convenience methods and classes to improve code that uses statistical distribution sampling, e.g.,
+in simulators.
 
 ## Examples
 

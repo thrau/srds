@@ -13,7 +13,7 @@ with open("requirements.txt", "r") as fh:
 
 setuptools.setup(
     name="srds",
-    version="0.0.1.dev1",
+    version="0.1.0",
     author="Thomas Rausch",
     author_email="thomas@rauschig.org",
     description="Utilities for randomly sampling from statistical distributions",
